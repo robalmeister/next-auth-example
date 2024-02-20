@@ -9,12 +9,16 @@ yarn-error.log*
 lerna-debug.log*
 .yarn-integrity
 .npm
+.idea
+yarn.lock
 
 .eslintcache
 
 *.tsbuildinfo
 next-env.d.ts
 
+.yarn
 .next
 .vercel
 .env*.local
+.env
