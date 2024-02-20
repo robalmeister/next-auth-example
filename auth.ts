@@ -9,9 +9,15 @@ export const config = {
     theme: {
         logo: "https://next-auth.js.org/img/logo/logo-sm.png",
     },
+    basePath: "/",
     providers: [
         GitHub,
     ],
+    session: {
+        strategy: "jwt",
+
+
+    },
     callbacks: {
         authorized({request, auth}) {
             const {pathname} = request.nextUrl
