@@ -3,7 +3,7 @@ import CustomLink from "@/components/custom-link"
 import { useEffect, useState } from "react"
 
 export default function Page() {
-  const [data, setData] = useState()
+  const [data, setData] = useState<any>(null)
   useEffect(() => {
     ;(async () => {
       const res = await fetch("/api/protected")
