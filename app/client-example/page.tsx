@@ -19,3 +19,4 @@ export default async function ClientPage() {
     </SessionProvider>
   )
 }
+export const runtime = 'edge';

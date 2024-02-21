@@ -46,3 +46,5 @@ export default async function UserButton() {
     </DropdownMenu>
   )
 }
+
+export const runtime = 'edge';
