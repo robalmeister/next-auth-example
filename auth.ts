@@ -6,10 +6,6 @@ import {adapter} from "@/lib/db";
 
 export const config = {
     adapter: adapter,
-    theme: {
-        logo: "https://next-auth.js.org/img/logo/logo-sm.png",
-    },
-    basePath: "/",
     providers: [
         GitHub,
     ],

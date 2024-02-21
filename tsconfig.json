@@ -22,7 +22,10 @@
     "paths": {
       "@/*": ["./*"],
       "auth": ["./auth"]
-    }
+    },
+    "types": [
+      "@cloudflare/workers-types"
+    ]
   },
   "include": [
     "process.d.ts",
