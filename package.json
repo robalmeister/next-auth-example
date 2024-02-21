@@ -7,6 +7,7 @@
   },
   "homepage": "https://next-auth-example.vercel.app",
   "scripts": {
+    "postinstall": "prisma generate --no-engine",
     "dev": "next",
     "build": "next build",
     "start": "next start"
